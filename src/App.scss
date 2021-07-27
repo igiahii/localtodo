@@ -1,0 +1,22 @@
+// @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// $primary: #31aa31;
+// $theme-colors: (
+//     "info": tomato,
+//     "danger": teal
+// );
+
+@import "~bootstrap/scss/bootstrap";
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(45,56,253,0.8687850140056023) 100%)
+} ;
+.nav-fill > .nav-link, .nav-fill .nav-item {
+    
+    cursor: pointer;
+}
+.todobar {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
